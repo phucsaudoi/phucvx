@@ -12,7 +12,7 @@ import java.util.Date;
 @Component
 @Slf4j
 public class JwtTokenProvider {
-    private final String JWT_SECRET = "lodaaaaaa";
+    private final String JWT_SECRET = "phucsaudoi";
     private final long JWT_EXPIRATION = 604800000L;
 
     public String generateToken(CustomUserDetails userDetails) {
